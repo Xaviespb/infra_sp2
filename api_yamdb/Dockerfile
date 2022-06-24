@@ -2,8 +2,6 @@ FROM python:3.7-slim
 
 LABEL author='solay@yandex.ru' version=1
 
-RUN mkdir /app
-
 WORKDIR /app
 
 COPY requirements.txt .
